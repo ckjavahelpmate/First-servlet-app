@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>servlet-first-app</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>MyFirst</servlet-name>
+  
+  <servlet-class>com.ty.Person</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>MyFirst</servlet-name>
+  
+  <url-pattern>/mysweet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MySecond</servlet-name>
+  <servlet-class>com.ty.User1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MySecond</servlet-name>
+  <url-pattern>/User1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MyHotel</servlet-name>
+  <servlet-class>com.ty.Hotel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MyHotel</servlet-name>
+  <url-pattern>/Hotel</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MyRoom</servlet-name>
+  <servlet-class>com.ty.Room</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MyRoom</servlet-name>
+  <url-pattern>/Room</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MyBed</servlet-name>
+  <servlet-class>com.ty.Bed</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MyBed</servlet-name>
+  <url-pattern>/Bed</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MyData</servlet-name>
+  <servlet-class>com.ty.MyData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MyData</servlet-name>
+  <url-pattern>/mydata</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Registration</servlet-name>
+  <servlet-class>com.ty.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

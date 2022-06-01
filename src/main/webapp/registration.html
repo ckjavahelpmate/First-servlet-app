@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="Registration" method="get" autocomplete="on">
+		<fieldset>
+			<legend>
+				<b>Registration</b>
+			</legend>
+			<label for="name">NAME</label> 
+			<input type="text" name="name" id="name" value="CK" style="margin-left: 50px" /> 
+			<br /> <br /> 
+			<label for="phone">PHONE</label> 
+			<input type="tel" name="phone" id="phone" style="margin-left: 45px"  />
+			 <br /> <br /> 
+			<label for="email">EMAIL</label> <input type="email"
+				name="email" id=email" style="margin-left: 45px" /> 
+				<br /> <br />
+			<label for="gender">GENDER</label> 
+			<input type="radio" value="male" name="gender"  id="gender" style="margin-left: 40px" />Male 
+			<input type="radio" value="female" name="gender"  id="gender" style="margin-left: 50px" />Female <br />
+			<br /> <br>
+			<label for="pass">PASSWORD</label>
+      	  <input  type="password" name="password" id="pass" style="margin-left: 18px" />
+      	  <br> <br>
+      	  <label for="country">country</label>
+        <select name="country" id="country" style="margin-left: 45px">
+          <option value="india">India</option>
+          <option value="UK">UK</option>
+          <option value="USA">USA</option>
+          <option value="swizerland">Switzerland</option>
+          <option value="japan">Japan</option>
+        </select>
+        <br /><br />
+        <input type="submit" name="submit">
+			</fieldset>
+		</form>
+</body>
+</html>
